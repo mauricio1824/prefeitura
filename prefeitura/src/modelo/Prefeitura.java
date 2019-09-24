@@ -13,7 +13,7 @@ public class Prefeitura {
     private Integer codigo;
     private String nome;
     private String endereco;
-    private Integer n_funcionarios;
+    private Integer n_funcionario;
 
     public Integer getCodigo() {
         return codigo;
@@ -39,12 +39,12 @@ public class Prefeitura {
         this.endereco = endereco;
     }
 
-    public Integer getN_funcionarios() {
-        return n_funcionarios;
+    public Integer getN_funcionario() {
+        return n_funcionario;
     }
 
-    public void setN_funcionarios(Integer n_funcionarios) {
-        this.n_funcionarios = n_funcionarios;
+    public void setN_funcionario(Integer n_funcionario) {
+        this.n_funcionario = n_funcionario;
     }
 
     @Override

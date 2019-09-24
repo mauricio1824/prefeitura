@@ -36,7 +36,7 @@ public class ManutencaoPrefeitura extends javax.swing.JDialog {
         jtfCodigo = new javax.swing.JTextField();
         jtfNome = new javax.swing.JTextField();
         jtfEndereco = new javax.swing.JTextField();
-        jtfN_alunos = new javax.swing.JTextField();
+        jtfN_funcionario = new javax.swing.JTextField();
         jtfAdicionar = new javax.swing.JButton();
         jtfAlterar = new javax.swing.JButton();
         jtfExcluir = new javax.swing.JButton();
@@ -94,7 +94,7 @@ public class ManutencaoPrefeitura extends javax.swing.JDialog {
                                 .addGroup(layout.createSequentialGroup()
                                     .addComponent(jLabel5)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(jtfN_alunos, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE))
+                                    .addComponent(jtfN_funcionario, javax.swing.GroupLayout.DEFAULT_SIZE, 228, Short.MAX_VALUE))
                                 .addGroup(layout.createSequentialGroup()
                                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addComponent(jLabel3)
@@ -134,7 +134,7 @@ public class ManutencaoPrefeitura extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(jtfN_alunos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jtfN_funcionario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jtfAdicionar)
@@ -209,7 +209,7 @@ public class ManutencaoPrefeitura extends javax.swing.JDialog {
     public javax.swing.JTextField jtfCodigo;
     public javax.swing.JTextField jtfEndereco;
     public javax.swing.JButton jtfExcluir;
-    public javax.swing.JTextField jtfN_alunos;
+    public javax.swing.JTextField jtfN_funcionario;
     public javax.swing.JTextField jtfNome;
     // End of variables declaration//GEN-END:variables
 }
